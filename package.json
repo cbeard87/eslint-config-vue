@@ -1,0 +1,45 @@
+{
+  "name": "@cbeard87/eslint-config-vue",
+  "version": "1.0.0",
+  "description": "ESLint and Prettier Config for Vue Projects",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbeard87/eslint-config-vue.git"
+  },
+  "keywords": [
+    "javascript",
+    "ecmascript",
+    "eslint",
+    "lint",
+    "config",
+    "prettier",
+    "vue"
+  ],
+  "author": "Christopher Beard <contact@chrisbeard.io> (http://chrisbeard.io)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cbeard87/eslint-config-vue/issues"
+  },
+  "homepage": "https://github.com/cbeard87/eslint-config-vue#readme",
+  "peerDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-vue": "^5.2.2",
+    "prettier": "^1.17.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-vue": "^5.2.2",
+    "prettier": "^1.17.1"
+  }
+}
